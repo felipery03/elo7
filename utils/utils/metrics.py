@@ -1,5 +1,6 @@
 from sklearn.metrics import f1_score
 
+
 def calc_mean_f1(y_true, y_pred,
                  labels=['Bebê',
                          'Bijuterias e Jóias',
@@ -11,7 +12,7 @@ def calc_mean_f1(y_true, y_pred,
     '''
 
     result = f1_score(y_true, y_pred,
-             labels=labels,
-             average='macro')
+                      labels=labels,
+                      average='macro')
 
     return round(result, 4)
