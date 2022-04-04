@@ -42,7 +42,14 @@ Todos os dados foram fornecidos pela [Elo7](https://elo7-datasets.s3.amazonaws.c
 <code>
 .
 |-- data
-|   |-- 
+|   |-- .gitkeep
+|-- imgs
+|   |-- classifier_result.JPG
+|   |-- recommender_result_1.JPG
+|   |-- recommender_result_2.JPG
+|   |-- recommender_result_3.JPG
+|   |-- recommender_result_4.JPG
+|   |-- recommender_result_5.JPG
 |-- models
 |   |-- classifier.pkl  # modelo de classificação salvo
 |   |-- recommender.pkl  # modelo de recomendação salvo
