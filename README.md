@@ -26,7 +26,7 @@ Todas as bibliotecas python adicionais para rodar esse projeto estão em em *req
         `teste_ds.py --recommendation "<título do produto>"`
 
     Exemplo: 
-        `teste_ds.py --recommendation "abajur"`
+        `python teste_ds.py --recommendation "abajur"`
 
 ## Motivação do Projeto<a name="motivation"></a>
 
